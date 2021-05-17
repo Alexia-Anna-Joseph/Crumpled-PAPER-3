@@ -12,7 +12,7 @@ var lastMouseY=null;
 
 
 function setup() {
-	createCanvas(1600, 700);
+	createCanvas(1450, 700);
 	rectMode(CENTER);
 
 
@@ -45,7 +45,7 @@ function setup() {
 
 function draw() {
   //rectMode(CENTER);
-  background(230);
+  background("skyblue");
  
   Engine.update(engine)
   
